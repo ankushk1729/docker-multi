@@ -10,6 +10,7 @@ function App() {
     <Router>
       <div className="App">
         <div>
+          <p>Fib</p>
           <Route exact path="/" component={Fib} />
           <Route path="/otherpage" component={OtherPage} />
         </div>
