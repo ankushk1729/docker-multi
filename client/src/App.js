@@ -10,7 +10,7 @@ function App() {
     <Router>
       <div className="App">
         <div>
-          <p>Fib</p>
+          <p>Fib calculator</p>
           <Route exact path="/" component={Fib} />
           <Route path="/otherpage" component={OtherPage} />
         </div>
